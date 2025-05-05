@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Hábitos</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Meus Hábitos</h1>
+    <form id="formHabito">
+      <input type="text" id="nomeHabito" placeholder="Nome do hábito" required>
+      <input type="number" id="metaHabito" placeholder="Meta diária" required>
+      <button type="submit">Adicionar Hábito</button>
+    </form>
+    <div id="listaHabitos" class="lista-habitos"></div>
+    <a href="progresso.html">Ver meu progresso</a>
+  </div>
+  <script src="js/habitos.js"></script>
+</body>
+</html>
